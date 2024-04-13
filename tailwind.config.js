@@ -10,6 +10,7 @@ export default {
           900: '#1D2D35',
           600: '#657178',
           400: '#657178',
+          300: '#f5f8ff',
           200 :'#F2F3F7',
           white: '#fff'
         }
@@ -42,6 +43,7 @@ export default {
       }
     },
     screens: {
+      'sm': '640px',
       'md': '1024px',
       'lg': '1240px',
       'xl': '1920px'
