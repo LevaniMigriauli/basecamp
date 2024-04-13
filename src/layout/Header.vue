@@ -228,7 +228,7 @@ const menuItem = computed(() => {
     <transition name="fade">
       <div
           v-if="menuOpen && !displayConfig.desktopViewActive"
-          class="bg-white w-full pl-4 pt-4 pb-6 lg:pt-[34px] lg:pl-12 lg:pb-[97px]"
+          class="bg-white w-full absolute z-20 pl-4 pt-4 pb-6 lg:pt-[34px] lg:pl-12 lg:pb-[97px]"
       >
         <ul>
           <li v-for="item in menuItem" :key="item.id">
