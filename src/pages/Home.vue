@@ -10,8 +10,10 @@ import Infos from '../components/Infos.vue'
 <template>
   <div class="max-w-contentWidth m-auto">
     <Slider/>
-    <News/>
-    <Popular/>
+    <div class="md:flex gap-[32px]">
+      <News/>
+      <Popular/>
+    </div>
     <WellKnownFacts/>
     <Infos/>
   </div>

@@ -2,6 +2,7 @@
 import ComponentWrapper from '../ui/shared/ComponentWrapper.vue'
 import popularImg from '../assets/images/popular.png'
 import { ref } from 'vue'
+import HeadingTertiary from '../ui/shared/HeadingTertiary.vue'
 
 const sectionPopularContent = ref([
   { id: '1', image: popularImg, textContent: 'დღეიდან ასაწონად განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
@@ -15,7 +16,7 @@ const sectionPopularContent = ref([
 <template>
   <ComponentWrapper>
     <section class="pt-[25px] pl-4 pr-3">
-      <h3 class="text-headline2Mobile mb-[27px]">პოპულარული</h3>
+      <HeadingTertiary textContent="პოპულარული" />
       <div class="max-h-[330px] overflow-auto">
         <div v-for="(item, index) in sectionPopularContent" :key="item.id"
              class="flex items-center gap-2 pb-4"

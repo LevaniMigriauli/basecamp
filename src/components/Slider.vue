@@ -66,7 +66,7 @@ const prev = () => {
     <div class="px-[16px] pt-[12px] pb-[24px] mb-6">
       <swiper :options="swiperOptions" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide v-for="(slide, index) in slides" :key="index">
-          <img class="h-[280px] mb-[16px] rounded-[20px] object-cover w-full" :src="slide.image" alt="Slide {{ index + 1 }}"/>
+          <img class="max-h-[280px] mb-[16px] rounded-[20px] object-cover w-full" :src="slide.image" alt="Slide {{ index + 1 }}"/>
           <div class="text-smallText mb-[8px]">
             <span class="py-[6px] px-[8px] bg-primary-light rounded-2xl mr-[4px]">12.08.2023</span>
             <span class="py-[6px] px-[8px] bg-primary-light rounded-2xl">პოლიტიკა</span>
@@ -74,6 +74,7 @@ const prev = () => {
           <div class="text-headline2">
             ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ინფრასტრუქტურული პროექტები დაიწყება
           </div>
+          <p class="hidden text-bodyTextRegular text-interface-600  md:block ">განთავსების (ლისტინგის) ორგანიზატორი სომხეთის ბანკი სს “არდშიბანკია”. ობლიგაციის ნომინალი - 1000 USD</p>
         </swiper-slide>
       </swiper>
       <div>
