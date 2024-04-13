@@ -39,10 +39,10 @@ const newsTextContent = ref([
 </script>
 
 <template>
-  <ComponentWrapper>
+  <ComponentWrapper class="col-start-2 row-start-1">
     <section class="pt-[25px] pl-4 pr-3">
       <HeadingTertiary textContent="ყველა სიახლე" />
-      <div class="max-h-[330px] overflow-auto">
+      <div class="max-h-[250px] overflow-auto pr-[8px] lg:max-h-[542px] ">
         <div class="py-4"
              :class="{ 'pt-4': index !== 0, 'border-b-2 border-dashed border-interface-200' : index !==newsTextContent.length - 1 ,'pt-0': index === 0 }"
              v-for="(item, index) in newsTextContent" :key="item.id">

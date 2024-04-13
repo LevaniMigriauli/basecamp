@@ -13,7 +13,7 @@ const sectionWellKnownContent = ref([
 </script>
 
 <template>
-  <ComponentWrapper>
+  <ComponentWrapper class="row-start-2">
     <section class="pt-4 pl-4 pb-[47px]">
       <h3 class="mb-5 text-headline2Mobile md:text-headline2 border-b-interface-200">ცნობილი ფაქტები</h3>
       <div class="flex gap-4 overflow-x-scroll overflow-y-hidden hide-scrollbar">

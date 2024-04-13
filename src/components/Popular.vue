@@ -14,10 +14,10 @@ const sectionPopularContent = ref([
 </script>
 
 <template>
-  <ComponentWrapper>
+  <ComponentWrapper class="max-h-[330px]  col-start-2 row-start-2 row-end-4 lg:max-h-[618px]">
     <section class="pt-[25px] pl-4 pr-3">
       <HeadingTertiary textContent="პოპულარული" />
-      <div class="max-h-[330px] overflow-auto">
+      <div class="max-h-[250px]  overflow-auto pr-[8px] lg:max-h-[542px]">
         <div v-for="(item, index) in sectionPopularContent" :key="item.id"
              class="flex items-center gap-2 pb-4"
              :class="{ 'pt-4': index !== 0, 'border-b-2 border-dashed' : index !==sectionPopularContent.length - 1 , 'pt-0': index === 0 }">

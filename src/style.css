@@ -14,8 +14,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-/* fonts.css */
 @font-face {
     font-family: 'NotoSansGeorgian-Regular';
     src: url('../src/assets/fonts/NotoSansGeorgian-Regular.ttf') format('truetype');
@@ -30,4 +28,37 @@
 @font-face {
     font-family: 'NotoSansGeorgian-Medium';
     src: url('../src/assets/fonts/NotoSansGeorgian-Medium.ttf') format('truetype');
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #657178;
+    background-clip: padding-box;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    display: none;
+}
+
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute;
+    bottom: 40% !important;
+}
+
+.swiper-button-prev {
+display: none !important;
+}
+
+.swiper-button-next {
+    display: none !important;
 }

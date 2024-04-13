@@ -28,7 +28,7 @@ export default {
           '14px',
           { lineHeight: '20px', letterSpacing: '.20px', fontWeight: '500' }],
         bodyTextRegular: [
-          '26px',
+          '16px',
           { lineHeight: '24px', letterSpacing: '.5px', fontWeight: '400' }],
         bodyTextMedium: [
           '16px',
@@ -44,7 +44,7 @@ export default {
     screens: {
       'md': '1024px',
       'lg': '1240px',
-      'xl': '1920'
+      'xl': '1920px'
     },
     boxShadow: {
       'medium': '0 0 20px rgba(0, 0, 0, 0.1)',
@@ -52,6 +52,12 @@ export default {
     },
     borderWidth: {
       '2' : '2px'
+    },
+    maxWidth: {
+      contentWidth : '1312px'
+    },
+    gridTemplateColumns: {
+      'lg-layout': '816px 264px'
     }
   },
   plugins: []
