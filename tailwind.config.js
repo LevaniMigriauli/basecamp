@@ -53,11 +53,9 @@ export default {
     borderWidth: {
       '2' : '2px'
     },
-    maxWidth: {
-      contentWidth : '1312px'
-    },
     gridTemplateColumns: {
-      'lg-layout': '816px 264px'
+      'lg-layout': '840px 264px',
+      'xl-layout': '976px 304px'
     }
   },
   plugins: []
