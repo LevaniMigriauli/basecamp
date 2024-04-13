@@ -55,7 +55,8 @@ export default {
     },
     gridTemplateColumns: {
       'lg-layout': '840px 264px',
-      'xl-layout': '976px 304px'
+      'xl-layout': '976px 304px',
+      'custom3': 'repeat(3, 1fr)'
     }
   },
   plugins: []

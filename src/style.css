@@ -34,10 +34,12 @@
 ::-webkit-scrollbar {
     width: 4px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #657178;
     background-clip: padding-box;
 }
+
 ::-webkit-scrollbar-track {
     background: transparent;
 }
@@ -52,11 +54,18 @@
 
 .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     position: absolute;
-    bottom: 40% !important;
+    bottom: 20px !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 24px !important;
+    background: #fff !important;
+    border-radius: 12px;
+    height: 8px;
 }
 
 .swiper-button-prev {
-display: none !important;
+    display: none !important;
 }
 
 .swiper-button-next {

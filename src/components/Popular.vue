@@ -8,7 +8,12 @@ const sectionPopularContent = ref([
   { id: '1', image: popularImg, textContent: 'დღეიდან ასაწონად განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
   { id: '2', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
   { id: '3', image: popularImg, textContent: 'დღეიდან ასაწონად განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
-  { id: '4', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' }
+  { id: '4', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
+  { id: '5', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
+  { id: '6', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
+  { id: '7', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
+  { id: '8', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' },
+  { id: '9', image: popularImg, textContent: 'ასაწონად დღეიდან განკუთვნილი პოლიეთილენის პარკები აიკრძალა' }
 ])
 
 </script>

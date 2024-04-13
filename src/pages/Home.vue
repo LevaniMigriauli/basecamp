@@ -8,7 +8,7 @@ import Infos from '../components/Infos.vue'
 </script>
 
 <template>
-  <div class="max-w-[1128px] m-auto lg:hidden">
+  <div class="m-auto lg:hidden">
     <Slider/>
     <div class="md:flex gap-[32px]">
       <News/>
@@ -18,7 +18,7 @@ import Infos from '../components/Infos.vue'
     <Infos/>
   </div>
 
-  <div class="hidden max-w-contentWidth m-auto lg:grid lg:grid-cols-lg-layout lg:gap-x-6 lg:gap-y-6 xl:max-w-[1312px] xl:grid-cols-xl-layout">
+  <div class="hidden m-auto lg:grid lg:grid-cols-lg-layout lg:gap-x-6 lg:gap-y-6 max-w-[1128px]  xl:max-w-[1312px] xl:grid-cols-xl-layout">
     <Slider/>
     <WellKnownFacts/>
     <Infos/>
